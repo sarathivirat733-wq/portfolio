@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>S.Santhoshkumar- Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f5f5f5;
+    }
+
+    /* Navbar */
+    nav {
+      background: linear-gradient(90deg, #007bff, #00c6ff);
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(135deg, #00c6ff, #007bff);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+
+    /* Section */
+    section {
+      padding: 40px 20px;
+      text-align: center;
+      background: white;
+      margin: 20px auto;
+      width: 80%;
+      border-radius: 10px;
+      box-shadow: 0px 3px 8px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      color: #007bff;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#personal">Personal</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Header -->
+  <header id="home">
+    <h1>S.Sarathi</h1>
+    <p>second Year Student | Python & Java Enthusiast | Typewriting Skills</p>
+  </header>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a passionate second year student with strong skills in Python, Java, 
+      and Type Writing. I love solving problems and building useful applications 
+      with creativity and dedication.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <p>Python | Java | Typewriting | Problem Solving</p>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h2>Education</h2>
+    <p>Bachelor of Computer application- second Year</p>
+  </section>
+
+  <!-- Personal -->
+  <section id="personal">
+    <h2>Personal Details</h2>
+    <p>Name: S.Sarathi<br> Location: India</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: sarathivirat733@gmail.com <br> Phone: +91 9344005442</p>
+  </section>
+
+</body>
+</html>
